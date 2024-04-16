@@ -58,7 +58,7 @@ public class App {
         System.out.println("Produtos na coleção: "+catalogoComChave.size());
         System.out.println(catalogoComChave.get("xboxChurrasqueira"));
     }
-}
+
 
 public static void HashMapExemplo2(){
     HashMap<String,Integer> cadastro = new HashMap<String,Integer>();
@@ -69,9 +69,8 @@ public static void HashMapExemplo2(){
     cadastro.put("Dia", 16);
 
     System.out.println("Estamos no Ano:" + cadastro.get("Ano"));
-    System.out.println("Estamos no Més:" + cadastro.get("Mes"));
+    System.out.println("Estamos no Mês:" + cadastro.get("Mes"));
     System.out.println("Estamos no Dia:" + cadastro.get("Dia"));
     System.out.println("Estamos no Dia:" + cadastro.get("Dia"));
-
-
+  }
 }
