@@ -1,3 +1,5 @@
+package classes;
+
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -51,8 +53,25 @@ public class App {
     public static void HashMapExemplo1() {
         Produto oProdXbox = new Produto("Microsoft", "Xbox Series X 1tb Standard Cor Preto", 3890f);
         HashMap<String, Produto> catalogoComChave = new HashMap<String, Produto>();
+
         System.out.println(catalogoComChave.put("xboxChurrasqueira", oProdXbox));
         System.out.println("Produtos na coleção: "+catalogoComChave.size());
         System.out.println(catalogoComChave.get("xboxChurrasqueira"));
     }
+}
+
+public static void HashMapExemplo2(){
+    HashMap<String,Integer> cadastro = new HashMap<String,Integer>();
+
+    cadastro.put("Ano", 2024);
+    cadastro.put("Mes", 4);
+    cadastro.put("Dia", 16);
+    cadastro.put("Dia", 16);
+
+    System.out.println("Estamos no Ano:" + cadastro.get("Ano"));
+    System.out.println("Estamos no Més:" + cadastro.get("Mes"));
+    System.out.println("Estamos no Dia:" + cadastro.get("Dia"));
+    System.out.println("Estamos no Dia:" + cadastro.get("Dia"));
+
+
 }
