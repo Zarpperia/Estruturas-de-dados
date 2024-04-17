@@ -2,12 +2,8 @@
 
 package com.mycompany.tad;
 
-import Interfaces.UmMonteDeNumero;
 import classes.ClienteDAO;
-import classes.FabricaDeLista;
-import classes.Lista;
-import classes.Vetor;
-import java.util.ArrayList;
+
 import classes.Cliente;
 
 
